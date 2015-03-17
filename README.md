@@ -1,10 +1,5 @@
-Sinatra
-=============
+Lighthouse Labs exercise to build a weather app.
 
-Brought to you by Lighthouse Labs
+A simple weather app with some CSS and JavaScript to style it.
 
-## Getting Started
-
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+Uses Weather Underground city autocomplete search and weather API. (http://www.wunderground.com/weather/api/d/docs)
