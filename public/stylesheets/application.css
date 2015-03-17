@@ -1,5 +1,5 @@
 #background {
-	max-width: 1080px;
+	max-width: 1280px;
 	height: auto;
 	background-image: url(iStock_000030168622Medium.jpg);
 	position: fixed;
@@ -16,7 +16,8 @@ body {
 	overflow: auto;
 }
 
-#cover{ 
+#cover{
+	max-width: 1280px;
 	position:fixed; 
 	top:0; 
 	left:0; 
@@ -31,6 +32,10 @@ body {
 
 h1 {
 	color: white;
+	margin-left: 40px;
+}
+
+h2 {
 	margin-left: 40px;
 }
 
@@ -107,6 +112,7 @@ a:link {
   max-width: 600px;
   margin: 50px auto auto auto;
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .list.is-visible {
@@ -117,9 +123,29 @@ a:link {
 .weather.is-visible {
 	opacity: 1;
 	transition: .5s ease-in;
+
 }
 
 .weather.is-visible p {
 	margin: auto;
 	max-width: 500px;
+	position: relative;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.footer {
+	position: relative;
+  margin: 0px auto;
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+  width: 200px;
+  top: 70px;
+  transition: .5s ease-in;
+}
+
+.footer p{
+	text-align: center;
+  font-size: .6em;
 }
